@@ -1,0 +1,110 @@
+.background {
+    min-height: 100%;
+    height: 100%;
+    background-image: url(/assets/background.jpg);
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Syncopate:wght@400;700&display=swap');
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.footer {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a.icons {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+hr.fixed {
+    margin:auto;
+    width: 50%;
+    border:none !important;
+    background-color: #ffd3c5   !important;
+    color: #ffd3c5   !important;
+    height: 3px !important;
+    margin-bottom: 3%;
+}
+
+.whoiam {
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.profile-apresentation {
+    margin-top: 5%;
+    width: 360px;
+    height: 340px;
+    border-radius: 100%;
+}
+
+.profile-name {   
+    margin-top: 2%;
+    font-size: 30px;
+    color: #ffd3c5;
+}
+.profile-text {
+    margin: auto;
+    width: 50%;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.profile-about {
+    margin:auto;
+    width: 50%;
+    color: #ffd3c5;
+    margin-bottom: 3%;
+}
+
+.description {
+    @import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.description-image {
+    opacity: 80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 300%;
+}
+
+.description-view {    
+    font-family: 'Courier New', monospace;
+    margin:auto;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.profile-icons {
+    color: white;
+    font-size: 230%;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 3%;
+}
+
+footer {
+    min-height: 80px;
+    position:relative;
+    background-color: black;
+}
+
+.footer-about {
+    font-size: 110%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    @import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+    font-family: 'Domine', serif;
+    color: #cc9c8e;
+}

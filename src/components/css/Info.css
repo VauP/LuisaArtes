@@ -1,0 +1,41 @@
+.contact-me {
+    text-align: center;
+    font-size: 280%;
+    @import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+    font-family: 'Domine', serif;
+    color: #f9dacd !important;
+}
+
+.contact-number {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 110%;
+    @import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+    font-family: 'Domine', serif;
+    color: #ffffff !important;
+}
+
+.contact-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin-bottom: 2%;
+}
+
+.contact-text {
+    @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+    font-family: 'Domine', serif;
+    text-align: center;
+    font-size: 90%;
+    color: white !important;
+}
+
+hr.fixed-info {
+    margin:auto;
+    width: 20%;
+    border:none !important;
+    background-color: #fce1de   !important;
+    color: #fce1de   !important;
+    height: 3px !important;
+    margin-bottom: 2%;
+}

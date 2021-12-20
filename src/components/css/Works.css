@@ -1,0 +1,28 @@
+.sample-fix {
+    height: 280px;
+    width: 280px;
+    border-radius: 15%;
+}
+
+.sample-title {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 120%;
+    color: #f9dacd !important;
+}
+
+.sample-year {
+    margin-top: -2%;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+    font-size: 100%;
+    font-family: 'Noto Serif', serif;
+    color: #ffffff !important;
+}
+
+
+.grid-item {
+    margin-right: 3vh;
+    margin-bottom: 10%;
+}
