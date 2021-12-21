@@ -1,6 +1,6 @@
 .sample-fix {
-    height: 280px;
-    width: 280px;
+    width: 100%;
+    height: 70%;
     border-radius: 15%;
 }
 
@@ -9,7 +9,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     margin-top: 2%;
-    font-size: 120%;
+    font-size: 100%;
     color: #f9dacd !important;
 }
 
@@ -21,8 +21,23 @@
     color: #ffffff !important;
 }
 
-
 .grid-item {
-    margin-right: 3vh;
-    margin-bottom: 10%;
+    min-width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid-item {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 10%;  
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sample-fix {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        border-radius: 15%;
+    }
 }

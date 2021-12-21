@@ -2,6 +2,7 @@ import React from "react";
 import "./css/Home.css";
 import Works from "./Works";
 import Info from "./Info";
+import profilePhoto from "../assets/profile.jpg";
 
     
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
        
         <div className="background">   
             <div className="whoiam">  
-                <img src="/assets/profile.png" className="profile-apresentation"/>  
+                <img src={profilePhoto} className="profile-apresentation"/>  
                 <div>
                     <p className="profile-name">LUISA PRENDIN</p>
                     <p className="profile-text">Através da arte demonstro quem sou, o mundo aos meus olhos se transforma em pinturas a óleo.</p>
@@ -24,18 +25,19 @@ const Home = () => {
 
             <hr class="fixed"/>   
 
-            <div>
-                <div className="profile-about">
-                    <p className="description">Pincel, tela e cor : <br/> UMA JANELA PARA A VIDA</p>
-                    <p className="description-image"><i class="fa fa-arrow-down" aria-hidden="true"></i></p>
-                    <p className="description-view">SEGUE PORTFÓLIO</p>
-                    
-                </div>
-                <div className="grid-container">
-                    <Works />
-                </div> 
-                <Info />
+          
+            <div className="profile-about">
+                <p className="description">Pincel, tela e cor : <br/> UMA JANELA PARA A VIDA</p>
+                <a class="icons" href="#section1"><i class="fa fa-arrow-down fa-4x" aria-hidden="true"></i></a>
+                <p className="description-view">SEGUE PORTFÓLIO</p>
+                
             </div>
+
+            <div className="grid-container" id="section1">
+                <Works />
+            </div> 
+            <Info />
+          
             
             <footer>
                 <div className="container">

@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .background {
     min-height: 100%;
     height: 100%;
-    background-image: url(/assets/background.jpg);
+    background-image: url(../../assets/background.jpg);
     text-align: center;
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Syncopate:wght@400;700&display=swap');
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +23,7 @@ a.icons {
 
 hr.fixed {
     margin:auto;
-    width: 50%;
+    width: 70%;
     border:none !important;
     background-color: #ffd3c5   !important;
     color: #ffd3c5   !important;
@@ -42,7 +46,7 @@ hr.fixed {
 
 .profile-name {   
     margin-top: 2%;
-    font-size: 30px;
+    font-size: 155%;
     color: #ffd3c5;
 }
 .profile-text {
@@ -53,8 +57,6 @@ hr.fixed {
 }
 
 .profile-about {
-    margin:auto;
-    width: 50%;
     color: #ffd3c5;
     margin-bottom: 3%;
 }
@@ -63,17 +65,12 @@ hr.fixed {
     @import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
     font-family: 'Domine', serif;
     font-weight: bold;
-    font-size: 31px;
+    font-size: 200%;
+    padding-bottom: 1.5%; 
 }
 
-.description-image {
-    opacity: 80%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 300%;
-}
-
-.description-view {    
+.description-view { 
+    padding-top: 1.5%;   
     font-family: 'Courier New', monospace;
     margin:auto;
     font-weight: bold;
@@ -85,10 +82,20 @@ hr.fixed {
     font-size: 230%;
 }
 
-.grid-container {
+.grid-container { 
+    max-width: 50%;
     display: inline-grid;
+    column-gap: 5%;
     grid-template-columns: auto auto auto;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        margin-bottom: 1%;
+    }
 }
 
 footer {

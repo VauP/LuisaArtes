@@ -15,6 +15,16 @@
     color: #ffffff !important;
 }
 
+hr.fixed {
+    margin:auto;
+    width: 70%;
+    border:none !important;
+    background-color: #ffd3c5   !important;
+    color: #ffd3c5   !important;
+    height: 3px !important;
+    margin-bottom: 5%;
+}
+
 .contact-image {
     width: 180px;
     height: 180px;
@@ -32,7 +42,7 @@
 
 hr.fixed-info {
     margin:auto;
-    width: 20%;
+    width: 30%;
     border:none !important;
     background-color: #fce1de   !important;
     color: #fce1de   !important;
